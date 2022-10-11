@@ -1,0 +1,85 @@
+html{
+    background-color: #0B1F37;
+    background-image: url('../../assets/img/backgraund.png');
+}
+
+#loginContainer {
+    background-color: #1263B0;
+    height: 80vh;
+    width: 70vw;
+    margin-left: 13%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-image: url('../../assets/img/login.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: -18px 13px 6px 10px rgba(0,0,0,0.55);
+    -webkit-box-shadow: -18px 13px 6px 10px rgba(0,0,0,0.55);
+    -moz-box-shadow: -18px 13px 6px 10px rgba(0,0,0,0.55);
+}
+
+
+#form {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    height: 80%;
+    width: 40%
+}
+
+.centerLetters{
+    display: flex;
+    align-self: center;
+}
+
+#email_input, #password_input{
+    margin-top: 5%;
+    height: 10%;
+    background-color: #ABADB0;
+    border-color: #CAC8C8;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+}
+
+#SignIn_button, #SignUp_button {
+    background-color: #0B1F37;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: #CAC8C8;
+    width: 30%;
+    height: 10%;
+    box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+    -moz-box-shadow: -3px 0px 13px 4px rgba(0,0,0,0.22);
+}
+
+#SignUpContainer {
+    background-color: #4C0417;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('../../assets/img/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 50%
+}
+
+.ColorWhite, .centerLetters{
+    color:  #D5E9FD;
+    border-color: black;
+}
